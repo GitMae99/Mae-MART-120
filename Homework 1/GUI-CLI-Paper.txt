@@ -1,0 +1,6 @@
+GUI (Graphical User Interface) and CLI (Command Line Interface) use different techniques to accomplish the same tasks.
+GUI uses a mouse to point and click to launch programs, move, copy or rename files and folders. It is very visually oriented with menus and multiple choices.
+Using the CLI, the user must type in the commands to do the same tasks, such as MD to make a directory (or folder), del to delete files, etc.
+Note that different CLI's will use different commands to do the same tasks.
+Sometimes the CLI gives you output after running a command, but not always.
+
