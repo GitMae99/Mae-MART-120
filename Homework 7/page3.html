@@ -1,0 +1,52 @@
+<html>
+
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+		function checkIt() {
+			if (document.getElementById("fName").value == "") {
+				document.getElementById("fName").style.backgroundColor = "red";
+				document.getElementById("requirefname").innerHTML = "* First Name is Required!";
+			}
+			else if (document.getElementById("lName").value == "") {
+				document.getElementById("lName").style.backgroundColor = "red";
+				document.getElementById("requirelname").innerHTML = "* Last Name is Required!!";
+			}
+			else if (document.getElementById("eaddress").value == "") {
+				document.getElementById("eaddress").style.backgroundColor = "red";
+				document.getElementById("requireeaddress").innerHTML = "* Email Adress is Required!";
+			}
+			else if (!agree.checked) {
+				document.getElementById("requireagree").style.color = "red";
+				document.getElementById("requireagree").innerHTML = "* You must choose Yes!!";
+			}
+		}
+	</script>
+
+</head>
+
+<body>
+	<h1 id="agreepurple">Contact Us</h1>
+	<p></p>
+	<h4>Please provide your contact details below:</h5>
+		<p></p>
+		<form action="">
+			<p>First Name: <input type="text" id="fName"><span id="requirefname"></span></p>
+			<p>Last Name: <input type="text" id="lName"><span id="requirelname"></span></p>
+			<p>Email Address: <input type="text" id="eaddress" </p><span id="requireeaddress"></span>
+			<p>Do you agree that we can contact you?</p>
+			<p>Yes<input type="radio" id="agree"><span id="requireagree"></span></p>
+			<br>
+			<!--<input type="radio" name="agree" value="No">No -->
+			<p><button type="button" id="buttonred" onClick="checkIt();"" id=:" SubBttn">Submit</button></p>
+		</form>
+
+		<p></p>
+		<a href="index.html">Go to Home Page</a>
+		<p></p>
+		<a href="Page2.html">Go to Page 2</a>
+
+</body>
+
+</html>

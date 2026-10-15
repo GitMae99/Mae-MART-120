@@ -1,0 +1,19 @@
+
+#agreepurple {
+    color: rgb(69, 6, 185);
+    font-family: cursive;
+    font-weight: 200;
+}
+#buttonred {
+    color: red;
+}
+
+.floatleft{
+    float: left ;
+    margin-right: 15px;      /* Adds space between the image and the text */
+    margin-bottom: 10px;
+
+}
+.clear{
+    clear: both;
+}
